@@ -1,0 +1,377 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 0.875rem;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.c_red{
+	color: red;
+}
+
+.font_30{
+	font-size: 1.875rem;
+}
+
+.f_right{
+	float: right;
+}
+
+.f_left{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+/* header头部 */
+header{
+	width: 100%;
+	height: 3.5rem;
+	background-color: #39ac6b;
+	padding: 0 12.5rem;
+}
+
+header nav{
+	width: 62.5rem;
+	margin: 0 auto;
+}
+
+header nav ul{
+	margin-left: -1.625rem;
+}
+
+header nav ul li{
+	float: left;
+	line-height: 3.5rem;
+	text-align: center;
+	width: 5.25rem;
+	height: 100%;
+}
+
+header nav li.mo{
+	background-color: rgba(0,0,0,.2);
+}
+
+header nav ul li:hover{
+	background-color: rgba(0,0,0,.2);
+}
+
+header nav ul li a{
+	color: #ffffff;
+}
+
+header nav ul li a.a_hover:hover{
+	color: red;
+}
+
+section.sec{
+	padding-top: 1rem;
+}
+
+section{
+	width: 62.5rem;
+	margin: 0 auto;
+}
+section .ar_1{
+	height: 3.375rem;
+}
+
+section .ar_1 .form{
+	width: 37.5rem;
+	height: 2.25rem;
+	border: 0.0625rem solid #dddddd;
+}
+
+section .ar_1 .form select{
+	width: 6.25rem;
+	height: 2.125rem;
+	text-align: center;
+	text-align-last: center;
+	border: none;
+	background-color: none;
+	color: #979797;
+}
+
+section .ar_1 .form input[type="text"]{
+	width: 24.357rem;
+	height: 100%;
+	border: none;
+	border-left: 0.0625rem solid #dddddd;
+	outline: none;
+}
+
+section .ar_1 .form input[type="submit"]{
+	width: 6.25rem;
+	display: block;
+	height: 100%;
+	border: none;
+	background-color: #e36058;
+	color: #FFFFFF;
+	border: 0.0625rem solid #e36058;
+}
+
+section .sm_title{
+	color: #b9b9b9;
+	margin: 10px 0;
+	display: block;
+}
+
+/* section 中上部 */
+.middle_top{
+	width: 62.5rem;
+	height: 93.75rem;
+	border: 0.0625rem solid #dddddd;
+	border-top: none;
+	margin-bottom: 3.75rem;
+}
+
+.middle_top .top{
+	height: 6.25rem;
+	border-top: 0.125rem solid #39ac6b;
+	border-bottom: 0.0625rem solid #dddddd;
+	background-color: #fbfbfb;
+	padding: 1.75rem 1.875rem 0 1.625rem;
+	text-align: left;
+}
+
+.middle_top .top .star{
+	width: 0.89rem;
+	height: 0.89rem;
+	background: url("../images/iconlist.png");
+	background-position: -3.2rem 0rem;
+	margin-left: 0.625rem;
+}
+
+.middle_top .top .top_title{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.middle_top .top .top_con{
+	font-size: 0.75rem;
+	color: #b9b9b9;
+}
+
+.middle_top .top .title_but{
+	width: 7.5rem;
+	height: 1.875rem;
+	background-color: #FFFFFF;
+	border: 0.0625rem solid #dedede;
+	border-radius: 0.25rem;
+	color: #626262;
+}
+
+.middle_top .contain .mon{
+	color: #e93b3c;
+}
+
+.middle_top .contain .cont_txt{
+	margin-left: 3.25rem;
+}
+
+.middle_top .contain .cont_txt .l_details{
+	width: 25.125rem;
+	height: 15.375rem;
+	border-bottom: 0.0625rem solid #dddddd;
+}
+
+.middle_top .contain .cont_txt .l_details .color_9d{
+	color: #9d9d9d;
+}
+
+.middle_top .contain .cont_txt .l_details li{
+	width: 11.75rem;
+	float: left;
+	margin-bottom: 1.5rem;
+}
+
+.middle_top .contain .cont_txt .l_details li:last-child{
+	width: 21rem;
+}
+
+.middle_top .contain .cont_txt .phone{
+	margin-top: 2.5rem;
+}
+
+.middle_top .contain .cont_txt .phone img{
+	float: left;
+	margin-right: 1rem;
+}
+
+.middle_top .contain .cont_txt .phone .username{
+	margin-top: -0.625rem;
+}
+
+.middle_top .contain .cont_txt .phone .username .phone_number .i{
+	width: 3.125rem;
+	height: 3.125rem;
+	background-color: #e03838;
+	margin-right: 1.125rem;
+	padding-left: 0.5rem;
+}
+
+.middle_top .contain .cont_txt .phone .username .phone_number{
+	width: 18.75rem;
+	height: 3.125rem;
+	background-color: #e36058;
+	font-size: 1.5rem;
+	line-height: 3.125rem;
+	color: #ffffff;
+}
+
+.middle_top .contain .price{
+	height: 30.8125rem;
+	width: 100%;
+	padding-top: 2.5rem;
+	padding-left: 2.25rem;
+}
+
+.middle_top .contain .price .bigImg{
+	width: 28.75rem;
+	height: 21.5rem;
+}
+
+.middle_top .contain .price .smallImg{
+	
+}
+
+.middle_top .contain .price .smallImg img{
+	width: 5.5rem;
+	height: 4.125rem;
+	margin-left: 0.625rem;
+}
+
+.middle_top .contain .price .raw{
+	width: 1.5rem;
+	height: 4.125rem;
+	background-color: #7f7f7f;
+	font-size: 2.125rem;
+	color: #ffffff;
+	padding-top: 0.5rem;
+}
+
+.middle_top .contain .details{
+	width: 58.125rem;
+	height: 56.5rem;
+}
+
+.middle_top .contain .details .de_contain{
+	color: #666666;
+	padding: 2.5rem 0.625rem 0 0;
+	line-height: 1.875rem;
+}
+
+.middle_top .contain .details .de_contain .de_mar{
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.middle_top .contain .details .title{
+	width: 100%;
+	height: 2.875rem;
+	background: #f5f5f5;
+	line-height: 2.875rem;
+	text-align: center;
+	font-size: 1.125rem;
+	color: #ffffff;
+	border-bottom: 0.125rem solid #39ac6b;
+}
+
+.middle_top .contain .details .title div{
+	width: 150px;
+	height: 100%;
+	background: #39ac6b;
+}
+
+.middle_top .contain .details .img{
+	width: 31.25rem;
+	height: 23.4375rem;
+	margin: 2.5rem auto;
+}
+
+
+/*footer*/
+footer{
+	background: #333333;
+	height: 10rem;
+	border: #333333 0.0625rem solid;
+}
+
+footer .center{
+	width: 62.5rem;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 0.875rem;
+}
+
+footer .center .left{
+	width: 32.5rem;
+	float: left;
+	
+}
+
+footer .center .left .top{
+	height: 2.875rem;
+	border-bottom: 0.125rem dashed #656565;
+}
+
+footer .center .left .top a{
+	color: #ffffff;
+}
+
+footer .center .left .top ul li{
+	float: left;
+	color: #fff;
+	line-height: 2.875rem;
+	margin-right: 1rem;
+}
+
+footer .center .left .top ul li:last-child{
+	margin-right: 0;
+}
+
+footer .center .left .bottom div{
+	margin-top: 0.875rem;
+	color: #999999;
+	height: 3.375rem;
+}
+
+footer .center .right{
+	width: 20rem;
+	height: 2.875rem;
+	float: right;
+	margin-top: 2.75rem;
+}
+
+footer .center .right .sm_img{
+	width: 2.875rem;
+	height: 2.875rem;
+	background: url("../images/iconlist.png");
+	background-position: 0rem -8.5rem;
+	float: left;
+}
+
+footer .center .right .sm_text{
+	float: left;
+	margin-left: 1rem;
+}
+
+footer .center .right .sm_text span{
+	font-size: 1.125rem;
+	color: #ababab;
+}

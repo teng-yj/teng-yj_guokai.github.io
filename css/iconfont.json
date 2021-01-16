@@ -1,0 +1,23 @@
+{
+  "id": "2289022",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1621485",
+      "name": "垃圾桶",
+      "font_class": "lajitong",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "2166726",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    }
+  ]
+}
